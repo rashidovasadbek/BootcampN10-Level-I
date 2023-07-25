@@ -314,11 +314,12 @@ linkedList.RemoveLast();
 
 // Dictionary
 
-var dictionary =
-    new Dictionary<string, User>();
+var dictionary =  new Dictionary<string, User>();
 
 dictionary.Add("John", new User());
 dictionary.Add("john007", new User());
+
+Console.WriteLine(dictionary.Keys);
 
 public class User
 {
